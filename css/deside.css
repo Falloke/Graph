@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #f9560f;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+  }
+  
+  .chart-container {
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #d42525;
+    color: #fff;
+    padding: 0.5rem;
+  }
